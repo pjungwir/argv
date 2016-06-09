@@ -3,11 +3,11 @@ one per line.
 It is sometimes handy when you're debugging
 shell commands that run commands, for instance:
 
-argv a "b c"
-sudo argv a "b c"
-ssh foo argv a "b c"
-ssh foo argv a \"b c\"
-ssh foo sudo argv a \"b c\"
+    argv a "b c"
+    sudo argv a "b c"
+    ssh foo argv a "b c"
+    ssh foo argv a \"b c\"
+    ssh foo sudo argv a \"b c\"
 
 I was inspired to write `argv` by reading
 [this StackOverflow question](http://stackoverflow.com/questions/37660229/shell-parallel-command-to-execute-as-user-postgres-via-root/37731999)
