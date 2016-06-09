@@ -1,0 +1,14 @@
+.*.swp
+.*.swo
+/argv
+*.o
+Makefile.in
+aclocal.m4
+ar-lib
+autom4te.cache/
+compile
+config.h.in
+configure
+depcomp
+install-sh
+missing
